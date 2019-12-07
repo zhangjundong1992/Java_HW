@@ -4,24 +4,6 @@ import utilities.ResCode;
 import java.sql.*;
 
 class AccountModel {
-
-//    public static void main(String[] args) {
-//        try {
-//            Connection con = JDBCUtils.getConnection();
-//            String sql = "select * from account;";
-//            assert con != null;
-//            Statement statement = con.prepareStatement(sql);
-//            ResultSet res = statement.executeQuery(sql);
-//            while (res.next()){
-//                System.out.println(res.getString("username"));
-//            }
-//        }
-//        catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
-
     ResCode transferMoney(String user_out, String user_in, int count) {
         Connection con = null;
         PreparedStatement statement = null;
