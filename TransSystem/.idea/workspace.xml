@@ -43,7 +43,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.17.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -150,6 +150,7 @@
       <workItem from="1575214379888" duration="1848000" />
       <workItem from="1575336966401" duration="15117000" />
       <workItem from="1575519434019" duration="26000" />
+      <workItem from="1575718530884" duration="1939000" />
     </task>
     <servers />
   </component>
