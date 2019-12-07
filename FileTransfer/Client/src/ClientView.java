@@ -39,20 +39,17 @@ class ClientView extends JFrame {
         this.add(label3);
 
         /*右侧*/
-        /*转出帐号*/
-        JTextField jtf1 = new JTextField();
+        JTextField jtf1 = new JTextField(); /*ip*/
         jtf1.setBounds(160, 50, 250, 30);
         jtf1.setFont(FONT);
         this.add(jtf1);
 
-        /*转入帐号*/
-        JTextField jtf2 = new JTextField();
+        JTextField jtf2 = new JTextField(); /*文件路径*/
         jtf2.setBounds(160, 100, 250, 30);
         jtf2.setFont(FONT);
         this.add(jtf2);
 
-        /*转账结果*/
-        JLabel label = new JLabel();
+        JLabel label = new JLabel(); /*传输结果*/
         label.setBounds(160, 150, 250, 30);
         label.setFont(FONT);
         this.add(label);
